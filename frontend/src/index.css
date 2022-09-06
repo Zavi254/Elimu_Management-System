@@ -29,9 +29,9 @@
     font-size:2rem ;
     /* margin-top: 20px; */
 }
-.sidebar li span:nth-child(2) {
-    font-size:1.4rem ;
-    /* margin-top: 20px; */
+.sideLinks {
+    font-size:1.6rem ;
+    color: #fff;
 }
 .sidebar li:hover{
     padding: 12px;
