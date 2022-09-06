@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <div className="student-class container d-flex justify-content-around">
+    <div className="student-class container d-flex align-items-center justify-content-around">
       <div className="card" style={{ width: "250px" }}>
         <img
           className="img-fluid"
