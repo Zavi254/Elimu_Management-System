@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #1C8394;
+}
 .navigationMenu{
     background-color:#042940;
     height: 100vh;
@@ -38,4 +41,9 @@
     color: #fff;
     background-color: #EA2C62;
     transition: all 0.5s;
+}
+.student-class{
+    height: 20vh;
+    margin: auto;
+    margin-right: 10px;
 }
