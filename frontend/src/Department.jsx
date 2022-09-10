@@ -3,21 +3,17 @@ import React from 'react'
 const Department = () => {
   return (
     <div className="container" style={{marginTop:'150px'}}>
-      <table className="table">
+      <table className="table bg-white" style={{fontSize:'1.3rem'}}>
         <thead className="table-dark">
           <tr>
-            <th>ID NO:</th>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Email</th>
+            <th>NO:</th>
+            <th>Name</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>1</td>
             <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
           </tr>
         </tbody>
       </table>
