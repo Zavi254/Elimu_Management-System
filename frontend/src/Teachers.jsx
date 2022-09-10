@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import DeleteButton from "./DeleteButton";
 import Form from "react-bootstrap/Form";
 
 const Teachers = () => {
@@ -34,6 +33,21 @@ const Teachers = () => {
       }),
     });
     alert("Teacher added successfully");
+  }
+
+  function handleDelete(e) {
+    fetch("http://localhost:9292/teachers/1", {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: name,
+        gender: gender,
+        department_id: department,
+      }),
+    });
+    alert("Teacher deleted successfully");
   }
 
   return (
@@ -121,7 +135,7 @@ const Teachers = () => {
               {/* <td>{teacher.department.name}</td> */}
               <td></td>
               <td>
-                <DeleteButton />
+                <button onClick={handleDelete} type="submit" className="btn btn-danger">Delete</button>
               </td>
             </tr>
           ))}
