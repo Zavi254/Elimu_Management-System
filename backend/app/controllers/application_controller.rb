@@ -1,10 +1,10 @@
 class ApplicationController < Sinatra::Base
     set :default_content_type, 'application/json'
     
-    # get "/teachers" do
-    #   teacher = Teacher.joins(:department)
-    #   teacher.to_json
-    # end
+    get "/departments" do
+      teacher = Department.all
+      teacher.to_json
+    end
 
     get '/teachers' do
       teacher = Teacher.all
