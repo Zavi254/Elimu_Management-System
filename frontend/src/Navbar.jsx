@@ -5,6 +5,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navigationMenu navbar">
+      <h3 className="text-center text-white">Elimu Management System</h3>
         <ul className="navbar-nav sidebar d-flex flex-column justify-content-center">
           <li className="nav-item">
             <span>
@@ -28,7 +29,7 @@ const Navbar = () => {
             <span>
               <i className="fa fa-building"></i>
             </span>
-            <Link className="nav-link sideLinks" to="/department">Department</Link>
+            <Link className="nav-link sideLinks" to="/departments">Department</Link>
           </li>
         </ul>
       </div>
