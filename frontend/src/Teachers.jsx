@@ -119,8 +119,7 @@ const Teachers = () => {
         <thead className="table-dark">
           <tr>
             <th>NO:</th>
-            <th>Name</th>
-            {/* <th>Classroom</th> */}
+git            <th>Name</th>
             <th>Gender</th>
             <th>Department</th>
             <th></th>
@@ -132,7 +131,6 @@ const Teachers = () => {
               <td>{index + 1}</td>
               <td>{teacher.name}</td>
               <td>{teacher.gender}</td>
-              {/* <td>{teacher.department.name}</td> */}
               <td></td>
               <td>
                 <button onClick={handleDelete} type="submit" className="btn btn-danger">Delete</button>
