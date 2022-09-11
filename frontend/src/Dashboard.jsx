@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <div className="student-class container d-flex align-items-center justify-content-around">
+      <div className="student-class container d-flex align-items-center justify-content-around">
       <div className="card" style={{ width: "250px" }}>
         <img
           className="img-fluid"
@@ -41,7 +41,7 @@ const Dashboard = () => {
         />
         <div className="card-body" style={{ backgroundColor: "#fff" }}>
           <h4 card-title>Department</h4>
-          <Link className="btn btn-primary" to="/department">
+          <Link className="btn btn-primary" to="/departments">
             View
           </Link>
         </div>
