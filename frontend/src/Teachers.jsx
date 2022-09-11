@@ -119,7 +119,7 @@ const Teachers = () => {
         <thead className="table-dark">
           <tr>
             <th>NO:</th>
-git            <th>Name</th>
+           <th>Name</th>
             <th>Gender</th>
             <th>Department</th>
             <th></th>
